@@ -133,25 +133,6 @@ tmdbId is an identifier for movies used by https://www.themoviedb.org. E.g., the
 
 Use of the resources listed above is subject to the terms of each provider.
 
-### Tag Genome (genome-scores.csv and genome-tags.csv)
-
-This data set includes a current copy of the Tag Genome.
-
-The tag genome is a data structure that contains tag relevance scores for movies. The structure is a dense matrix: each movie in the genome has a value for every tag in the genome.
-
-As described in this article, the tag genome encodes how strongly movies exhibit particular properties represented by tags (atmospheric, thought-provoking, realistic, etc.). The tag genome was computed using a machine learning algorithm on user-contributed content including tags, ratings, and textual reviews.
-
-The genome is split into two files. The file genome-scores.csv contains movie-tag relevance data in the following format:
-
-movieId,tagId,relevance
-The second file, genome-tags.csv, provides the tag descriptions for the tag IDs in the genome file, in the following format:
-
-tagId,tag
-The tagId values are generated when the data set is exported, so they may vary from version to version of the MovieLens data sets.
-
-Please include the following citation if referencing tag genome data:
-
-Jesse Vig, Shilad Sen, and John Riedl. 2012. The Tag Genome: Encoding Community Knowledge to Support Novel Interaction. ACM Trans. Interact. Intell. Syst. 2, 3: 13:1–13:44. https://doi.org/10.1145/2362394.2362395
 
 ### Cross-Validation
 
