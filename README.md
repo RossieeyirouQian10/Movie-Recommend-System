@@ -99,25 +99,25 @@ Movie titles are entered manually or imported from https://www.themoviedb.org/, 
 
 Genres are a pipe-separated list, and are selected from the following:
 
-Action
-Adventure
-Animation
-Children's
-Comedy
-Crime
-Documentary
-Drama
-Fantasy
-Film-Noir
-Horror
-Musical
-Mystery
-Romance
-Sci-Fi
-Thriller
-War
-Western
-(no genres listed)
+* Action
+* Adventure
+* Animation
+* Children's
+* Comedy
+* Crime
+* Documentary
+* Drama
+* Fantasy
+* Film-Noir
+* Horror
+* Musical
+* Mystery
+* Romance
+* Sci-Fi
+* Thriller
+* War
+* Western
+* (no genres listed)
 
 
 ### Links Data File Structure (links.csv)
